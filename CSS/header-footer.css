@@ -1,0 +1,24 @@
+/* transitions Logo to grow when hovered over   -     may want to use this somewhere else though */
+#BruknerLogo {
+    width: 100%;
+    transition: width 2s;
+}
+#BruknerLogo:hover {
+    width: 125%;
+}
+/* Style donate button and Calendar image */
+#donate {
+    size: auto;
+}
+footer {
+    position: left;
+    clear: both;
+    background-color: burlywood;
+    position: center;
+    text-align: center;
+}
+
+/* reduce space between p tags in footer */
+footer p {
+    margin: 0;
+}

@@ -1,0 +1,129 @@
+/* styles the main content from the home page */
+.Home-Page-Main-Content {
+    margin: 1em;
+}
+
+/* styles Home Page image and video */
+.Home-Page-section {
+    margin: 1em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-item-right {
+    flex: 50%
+}
+.flex-item-left {
+    flex: 50%
+}
+/* styles main content box on all pages except home page */
+.main-content {
+    width: 85%;
+    float: right;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+/* styles the side-bar menu navigation grouping */
+.side-menu {
+    height: 100%;
+    width: 15%;
+    float: left;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 8%;
+    border-right: 1px solid black;
+}
+.side-menu a {
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+/* styles the main-content and side-menu for the Iddings page and wildlife-faq page */
+.main-content-iddings {
+    width: 85%;
+    float: right;
+    border-left: 1px solid black;
+    padding-left: 5%;
+    padding-right: 10%;
+}
+.side-menu-iddings {
+    height: 100%;
+    width: 15%;
+    float: left;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 8%;
+}
+.side-menu-iddings a {
+    padding: 0 0 0 10px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+}
+/* styles all h1 elements */
+h1, h2 {
+    color: green;
+}
+
+/* style cancelled class (cancelled messages) */
+.cancelled {
+    color: red;
+}
+/* style deadlines */
+.deadline {
+    font-weight: bold;
+    
+}
+
+
+/* styles the contact-us page images */
+.main-content-flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+/* rotate images on contact-us page */
+#Becky-Crow {
+    transform: rotate(340deg);
+}
+#June-Drieling {
+    transform: rotate(20deg);
+}
+/* center text under image for Deb Oexmann on contact-us page */
+.Deb-Oexmann{
+    text-align: center;
+}
+/* styles the  Living with Wildlife Brochure Images */
+.main-content-flex-container2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Styles Questions on wildlife-FAQs page */
+.WhatToDo {
+    font-weight: bold;
+    color: blue;
+}
+/* Styles H1 on index.html */
+#main-heading {
+    text-align: center;
+}
+#sub-heading {
+    color: black;
+}
+
+#trail-map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
